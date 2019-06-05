@@ -14,14 +14,22 @@
                 <header>Scene Viewer Test Page</header>
         </div>
         <div class="container-fluid">
+            <model-viewer ar alt="A 3D model of a T800." 
+                src="./Assets/terminator_gltf/terminator.gltf" 
+                ios-src="./Assets/terminator.usdz"
+                autoplay
+                unstable-webxr
+                auto-rotate camera-controls background-color="#455A64"></model-viewer>
+        </div>
+        <div class="container-fluid">
             <!-- 💁 Include both scripts below to support all browsers! -->
             <!-- Loads <model-viewer> for modern browsers: -->
             <script type="module"
             src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
             </script>
             <model-viewer ar alt="A 3D model of an astronaut." 
-                src="Astronaut.gltf" 
-                ios-src="Astronaut.usdz"
+                src="./Assets/Astronaut.gltf" 
+                ios-src="./Assets/Astronaut.usdz"
                 autoplay
                 unstable-webxr
                 auto-rotate camera-controls background-color="#455A64"></model-viewer>
@@ -29,8 +37,8 @@
         <br>
         <div class="container-fluid">
             <model-viewer ar alt="A 3D model of a Duck." 
-                src="CHAHIN_DUCK.gltf" 
-                ios-src="CHAHIN_DUCK.usdz"
+                src="./Assets/CHAHIN_DUCK.gltf" 
+                ios-src="./Assets/CHAHIN_DUCK.usdz"
                 autoplay
                 unstable-webxr
                 auto-rotate camera-controls background-color="#455A64"></model-viewer>
@@ -38,8 +46,8 @@
         <br>
         <div class="container-fluid">
             <model-viewer ar alt="A 3D model of a Pagoda." 
-                src="Pagoda.gltf" 
-                ios-src="Pagoda.usdz"
+                src="./Assets/Pagoda.gltf" 
+                ios-src="./Assets/Pagoda.usdz"
                 autoplay
                 unstable-webxr
                 auto-rotate camera-controls background-color="#455A64"></model-viewer>
@@ -47,8 +55,8 @@
         <br>
         <div class="container-fluid">
             <model-viewer ar alt="A 3D model of a Pagoda." 
-                src="./AntiqueCamera/glTF-Binary/AntiqueCamera.glb" 
-                ios-src="Pagoda.usdz"
+                src="./Assets/AntiqueCamera/glTF-Binary/AntiqueCamera.glb" 
+                ios-src="./Assets/Pagoda.usdz"
                 autoplay
                 unstable-webxr
                 auto-rotate camera-controls background-color="#455A64"></model-viewer>
